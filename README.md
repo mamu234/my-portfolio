@@ -5,10 +5,17 @@ My portfolio project is a short description of my profile with a overview of my 
 
 Features 
 
+My profile picture 
+Sections: Navigation bar ;About , education expreince , mu hobbies, my career progress
+
+Languages
+Html, css and Javascript 
 
 setup intructions 
+Install latest web browser 
 
-To make adjsutments ,fork the repo and clone in your local environment
+
+
 
 
 
