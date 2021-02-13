@@ -1,36 +1,34 @@
 body{
     background-color:  #FFDDCA;
-    margin: 10px;
 
 }
 .nav-header a {
-    margin-left:30px;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    border: 10px  black ;
-    display: inline-block;
-    padding-right: 30px;
-    font-family: sans-serif;
-    border-bottom: 3px  solid black;
-    border-top: 3px solid black;
-    color:solid maroon;
-
-
-}
-.main img {
+    float:right;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    color: #330202;
+    text-align: center;
+    padding: 14px 16px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Lobster;
+    position:relative;
+    top: 20px;
+}
+
+
+
+
+.main img {
     width: 35%;
     border-radius: 50%;
-    position: relative;
-    left:-70px;
-    top:60px;
+    position:absolute;
+    left:-80px;
+    bottom: 90%;
+    float: right;
 }
 h3{
-    position: absolute;
+   
     top:30%;
     margin-left: 40px;
     font-size: 30px;
@@ -44,16 +42,20 @@ span{
 p{
 font-size: 20px;
 text-align: center;
-position: relative;
+
 top:-250px;
 right:35%;
 }
 .content{
    font-size: 20px; 
    text-overflow: inherit;
-   position: absolute;
+  
    top: 70%;
    display: block;
-   border: solid black;
+  
 
+}
+ a:hover {
+    background-color: #f33326;
+    color: rgb(224, 194, 194);
 }
