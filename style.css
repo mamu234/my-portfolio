@@ -16,45 +16,48 @@ body{
     top: 20px;
 }
 
-
-
+  
 
 .main img {
-    width: 35%;
-    border-radius: 50%;
-    position:absolute;
-    left:-80px;
-    bottom: 90%;
-    float: right;
+position:relative;
+bottom: -150px;
+left:120px;
+ border: 1px solid rgb(238, 191, 191);
+ border-radius: 45%;
 }
+
+
 h3{
-   
-    top:30%;
+   position: absolute;
+    top:15%;
+    left: 20%;
     margin-left: 40px;
     font-size: 30px;
+    font-family: Bigshot One;
     
 }
 span{
     display: block ;
     margin-left: 50px;
-    font-size: 20px
+    font-size: 20px;
+    position:relative;
+    top:10%;
+    right:-400px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Bigshot One;
 }
-p{
-font-size: 20px;
-text-align: center;
-
-top:-250px;
-right:35%;
+.content p{
+    position:absolute;
+    top: 50%;
+    right:24%;
+    font-size: 25px;
+   
 }
-.content{
-   font-size: 20px; 
-   text-overflow: inherit;
-  
-   top: 70%;
-   display: block;
-  
-
-}
+.exp{
+    position:absolute;
+    text-overflow: inherit; 
+        } 
  a:hover {
     background-color: #f33326;
     color: rgb(224, 194, 194);
