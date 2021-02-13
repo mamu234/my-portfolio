@@ -16,50 +16,98 @@ body{
     top: 20px;
 
 }
-
-  
-
 .main img {
 position:relative;
-bottom: -150px;
-left:120px;
- border: 1px solid rgb(238, 191, 191);
- border-radius: 45%;
+left:10%;
+top: 20%;
+
+ border: 5px solid rgb(238, 191, 191);
+ border-radius: 50%;
 }
 
 
-h3{
+h2{
    position: absolute;
-    top:15%;
-    left: 20%;
+    top:25%;
+    left: 55%;
     margin-left: 40px;
-    font-size: 30px;
-    font-family: Bigshot One;
+    font-size: 15px;
+    font-family:Lato;
+    letter-spacing: 2px;
+    color: solid rgb(24, 4, 4);
     
 }
-span{
-    display: block ;
+h3{
+    display:inline-block;
     margin-left: 50px;
     font-size: 20px;
     position:relative;
-    top:10%;
-    right:-400px;
+    bottom:250px;
+    right:-500px;
     margin-left: 40px;
     font-size: 30px;
-    font-family: Bigshot One;
+    font-family: Lato;
+}
+span{
+    display:block;
+    margin-left: 50px;
+    font-size: 20px;
+    position:relative;
+    right: -40px;
+
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Lato;
+}
+
+h4{
+    display:block;
+    margin-left: 50px;
+    font-size: 15px;
+    position:absolute;
+    top:250px;
+    right: 25%;
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Lato; 
+    letter-spacing: 2px;  
 }
 .content p{
-    position:absolute;
-    top: 50%;
-    right:24%;
+    margin-left: 50px;
     font-size: 25px;
+    position:absolute;
+     bottom: 30%;
+    right: 25%;
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Lato; 
+    letter-spacing: 2px;   
    
 }
-.exp{
-    position:absolute;
-    text-overflow: inherit; 
-        } 
+.content h5{
+    text-overflow: initial;
+    font-size: 15px;
+}
+ 
  a:hover {
     background-color: #f33326;
     color: rgb(224, 194, 194);
 }
+:active {
+    background-color: black;
+  }
+  
+  a:visited {
+    background-color: #ccc;
+  
+  }
+  #display { 
+    position:absolute; 
+    visibility:show; 
+    left: 50%; 
+     bottom: 10%;  
+     font-size: 50px;
+     font-family: sans-serif; 
+    }
