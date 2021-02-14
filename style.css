@@ -1,5 +1,5 @@
 body{
-    background-color:  #FFDDCA;
+    background-color:  #c49c85;
 
 }
 .nav-header a {
@@ -21,7 +21,7 @@ position:relative;
 left:10%;
 top: 20%;
 
- border: 5px solid rgb(238, 191, 191);
+ border: 5px solid rgb(187, 141, 141);
  border-radius: 50%;
 }
 
@@ -40,67 +40,59 @@ h2{
 h3{
     display:inline-block;
     margin-left: 50px;
-    font-size: 20px;
     position:relative;
-    bottom:250px;
-    right:-500px;
+    bottom:200px;
+    right:-700px;
     margin-left: 40px;
     font-size: 30px;
-    font-family: Lato;
-}
-span{
-    display:block;
-    margin-left: 50px;
-    font-size: 20px;
-    position:relative;
-    right: -40px;
-
-    margin-left: 40px;
-    font-size: 30px;
-    font-family: Lato;
+    font-family: Lobster;
 }
 
 h4{
     display:block;
     margin-left: 50px;
-    font-size: 15px;
-    position:absolute;
-    top:250px;
-    right: 25%;
-    padding-top: 30px;
-    margin-left: 40px;
-    font-size: 15px;
-    font-family: Lato; 
-    letter-spacing: 2px;  
-}
-.content p{
-    margin-left: 50px;
     font-size: 25px;
     position:absolute;
-     bottom: 30%;
-    right: 25%;
+    top: 250px;
+    right: 23%;
     padding-top: 30px;
     margin-left: 40px;
-    font-size: 15px;
-    font-family: Lato; 
-    letter-spacing: 2px;   
-   
+    font-family: Lobster; 
+    letter-spacing: 2px; 
+    color: #330202; 
+}
+.content p{
+    position: absolute;
+    top: 60%;
+    right:60%;
+    padding-top: 30px;
+    margin-left: 90px;
+    font-size: 30px;
+    font-family: Lobster; 
+    letter-spacing: 2px;
+    color: #330202; 
 }
 .content h5{
-    text-overflow: initial;
-    font-size: 15px;
+position: relative;
+top:-150px;
+display:inline-block;
+font-size: 20px;
+margin: 100px;
+padding-bottom: 90px;
+text-align: justify;
+
 }
  
  a:hover {
-    background-color: #f33326;
-    color: rgb(224, 194, 194);
+    background-color: #b35951;
+    color: rgb(112, 199, 2211);
 }
 :active {
-    background-color: black;
+    background-color:#c49c85;;
   }
   
   a:visited {
-    background-color: #ccc;
+    background-color: #c49c85;;
   
   }
   #display { 
