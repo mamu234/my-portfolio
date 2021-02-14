@@ -6,7 +6,9 @@ My portfolio project is a short description of my profile with a overview of my 
 Features 
 
 My profile picture 
-Sections: Navigation bar ;About , education expreince , mu hobbies, my career progress
+Sections: Navigation bar ;About , career overview, Achivement, Fun Activities, Contacts.
+Main section: my proflie picture, name ,title and welcome message,career overview
+footer: Copyright 
 
 Languages
 Html, css and Javascript 
